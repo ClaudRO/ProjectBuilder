@@ -1,0 +1,12 @@
+ESTAS SON LAS INSTRUCCIONES PARA EJECUTAR Y PROBAR EL SOFTWARE, ESTE ES UN FRONT DESAROLLADO CON REACT Y TAILWIND, ENTRE OTROS.
+
+PASOS A PASO:
+
+1) Lo primero es ejecutar el comando e"NPM INSTALL" en una terminal de comandos, este comando debe ser ejecutado en la carpeta llamada cliente, este instalara todas la dependencias necesarias para ejecutar el programa.
+	acotacion.
+		si se abre la carpeta cliente desde VSC este suele reconocer que faltan las dependencias y te dara la opcion de instalarlas, esto es lo mismo que hacer npm install en la carpeta cliente
+
+2) El segundo paso es levantar el servidor back end para que esté listo para comunicarse con nuestro Front
+
+3) Una vez preparado el ambiente, se debe ejecutar el comando "NPM RUN DEV" en la carpeta cliente, este levantara el front y ya prodra ser probado, por medio del puerto 5432. !Buena Suerte!
+

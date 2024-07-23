@@ -1,0 +1,56 @@
+.login-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 80vh; /* Establece la altura al 100% del viewport */
+}
+  
+.login-form {
+    width: 700px; /* Ajusta el ancho del formulario */
+    border: 1px solid #ccc;
+    padding: 40px 60px; /* Modificado el padding para aumentar la altura vertical */
+    border-radius: 5px;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+}
+  
+.login-form input {
+    width: 100%;
+    margin-bottom: 20px; /* Ajusta el margen inferior para separar los campos */
+    padding: 15px; /* Ajusta el padding para aumentar la altura vertical */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #000000; /* Establece el color del texto */
+}
+
+
+.submit-button {
+    width: 60%; 
+    margin: 20px auto; 
+    padding: 15px;
+    background-color: #208f55;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  
+
+
+.password-input-container {
+    position: relative;
+  }
+  
+  .password-toggle-button {
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+  }
+  
